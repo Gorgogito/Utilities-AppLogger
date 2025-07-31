@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solutions.Utility.Logger", "src\Solutions.Utility.Logger\Solutions.Utility.Logger.csproj", "{B4F0CFD3-D1C3-4C8F-F128-91E91D4E9FD4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{BF29818B-BD87-459A-852F-7D55C6D7779C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solutions.Utility.AppLogger.Tests", "test\Solutions.Utility.AppLogger.Tests\Solutions.Utility.AppLogger.Tests.csproj", "{6E1A81FF-4797-4026-AFFD-9476D51E16CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{CBC11A93-C98C-4F73-B430-03B6750E433B}"
+	ProjectSection(SolutionItems) = preProject
+		doc\Especificacion_Funcional_AppLogger.docx = doc\Especificacion_Funcional_AppLogger.docx
+		doc\Especificacion_Tecnica_AppLogger.docx = doc\Especificacion_Tecnica_AppLogger.docx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4F0CFD3-D1C3-4C8F-F128-91E91D4E9FD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F0CFD3-D1C3-4C8F-F128-91E91D4E9FD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F0CFD3-D1C3-4C8F-F128-91E91D4E9FD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F0CFD3-D1C3-4C8F-F128-91E91D4E9FD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E1A81FF-4797-4026-AFFD-9476D51E16CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E1A81FF-4797-4026-AFFD-9476D51E16CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E1A81FF-4797-4026-AFFD-9476D51E16CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E1A81FF-4797-4026-AFFD-9476D51E16CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B4F0CFD3-D1C3-4C8F-F128-91E91D4E9FD4} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{6E1A81FF-4797-4026-AFFD-9476D51E16CE} = {BF29818B-BD87-459A-852F-7D55C6D7779C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E992815A-61AA-440E-AFFC-9529A2576976}
+	EndGlobalSection
+EndGlobal

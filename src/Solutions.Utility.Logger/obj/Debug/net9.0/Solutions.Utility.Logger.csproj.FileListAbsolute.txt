@@ -1,0 +1,11 @@
+D:\Project\Utilities\AppLogger\src\Solutions.Utility.Logger\bin\Debug\net9.0\Solutions.Utility.Logger.deps.json
+D:\Project\Utilities\AppLogger\src\Solutions.Utility.Logger\bin\Debug\net9.0\Solutions.Utility.Logger.dll
+D:\Project\Utilities\AppLogger\src\Solutions.Utility.Logger\bin\Debug\net9.0\Solutions.Utility.Logger.pdb
+D:\Project\Utilities\AppLogger\src\Solutions.Utility.Logger\obj\Debug\net9.0\Solutions.Utility.Logger.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\Utilities\AppLogger\src\Solutions.Utility.Logger\obj\Debug\net9.0\Solutions.Utility.Logger.AssemblyInfoInputs.cache
+D:\Project\Utilities\AppLogger\src\Solutions.Utility.Logger\obj\Debug\net9.0\Solutions.Utility.Logger.AssemblyInfo.cs
+D:\Project\Utilities\AppLogger\src\Solutions.Utility.Logger\obj\Debug\net9.0\Solutions.Utility.Logger.csproj.CoreCompileInputs.cache
+D:\Project\Utilities\AppLogger\src\Solutions.Utility.Logger\obj\Debug\net9.0\Solutions.Utility.Logger.dll
+D:\Project\Utilities\AppLogger\src\Solutions.Utility.Logger\obj\Debug\net9.0\refint\Solutions.Utility.Logger.dll
+D:\Project\Utilities\AppLogger\src\Solutions.Utility.Logger\obj\Debug\net9.0\Solutions.Utility.Logger.pdb
+D:\Project\Utilities\AppLogger\src\Solutions.Utility.Logger\obj\Debug\net9.0\ref\Solutions.Utility.Logger.dll
