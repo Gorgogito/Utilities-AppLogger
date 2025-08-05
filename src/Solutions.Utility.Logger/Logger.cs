@@ -2,10 +2,10 @@
 {
     public class Logger : ILogger
     {
-
+        private string fecha = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.fffffff");
         private string _path = "C:";
         private string _file = "Log_" + DateTime.Now.ToString("yyyyMMdd");
-        private string _dateformat = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.fffffff");
+        private string _dateformat = "yyyy-MM-dd HH:mm:ss.fffffff"; // DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.fffffff");
 
         #region HELPER
 
@@ -46,35 +46,66 @@
         { _dateformat = format; }
 
         public void Info(string message)
-        { Add(_dateformat + " [INFO] " + message); }
+        {
+            fecha = DateTime.Now.ToString(_dateformat);
+            Add(fecha + " [INFO] " + message);
+        }
 
         public void Debug(string message)
-        { Add(_dateformat + " [DEBUG] " + message); }
+        {
+            fecha = DateTime.Now.ToString(_dateformat);
+            Add(fecha + " [DEBUG] " + message);
+        }
 
         public void Warn(string message)
-        { Add(_dateformat + " [WARNNIG] " + message); }
+        {
+            fecha = DateTime.Now.ToString(_dateformat);
+            Add(fecha + " [WARNNIG] " + message);
+        }
 
         public void Error(string message)
-        { Add(_dateformat + " [ERROR] " + message); }
+        {
+
+            fecha = DateTime.Now.ToString(_dateformat);
+            Add(fecha + " [ERROR] " + message);
+        }
 
         public void Fatal(string message)
-        { Add(_dateformat + " [FATAL] " + message); }
+        {
+            fecha = DateTime.Now.ToString(_dateformat);
+            Add(fecha + " [FATAL] " + message);
+        }
 
 
         public void InfoFormat(string message, params object[] args)
-        { Add(_dateformat + " [INFO] " + string.Format(message, args)); }
+        {
+            fecha = DateTime.Now.ToString(_dateformat);
+            Add(fecha + " [INFO] " + string.Format(message, args));
+        }
 
         public void DebugFormat(string message, params object[] args)
-        { Add(_dateformat + " [DEBUG] " + string.Format(message, args)); }
+        {
+            fecha = DateTime.Now.ToString(_dateformat);
+            Add(fecha + " [DEBUG] " + string.Format(message, args));
+        }
 
         public void WarnFormat(string message, params object[] args)
-        { Add(_dateformat + " [WARNNIG] " + string.Format(message, args)); }
+        {
+            fecha = DateTime.Now.ToString(_dateformat);
+            Add(fecha + " [WARNNIG] " + string.Format(message, args));
+        }
 
         public void ErrorFormat(string message, params object[] args)
-        { Add(_dateformat + " [ERROR] " + string.Format(message, args)); }
+        {
+            fecha = DateTime.Now.ToString(_dateformat);
+            Add(fecha + " [ERROR] " + string.Format(message, args));
+        }
 
         public void FatalFormat(string message, params object[] args)
-        { Add(_dateformat + " [FATAL] " + string.Format(message, args)); }
+        {
+            fecha = DateTime.Now.ToString(_dateformat);
+            Add(fecha + " [FATAL] " + string.Format(message, args));
+        }
 
     }
 }

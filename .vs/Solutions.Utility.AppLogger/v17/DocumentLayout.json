@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Project\\Utilities\\AppLogger\\",
+  "WorkspaceRootPath": "D:\\Project\\Utilities\\Utilities-AppLogger\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E1A81FF-4797-4026-AFFD-9476D51E16CE}|test\\Solutions.Utility.AppLogger.Tests\\Solutions.Utility.AppLogger.Tests.csproj|d:\\project\\utilities\\applogger\\test\\solutions.utility.applogger.tests\\loggertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4F0CFD3-D1C3-4C8F-F128-91E91D4E9FD4}|src\\Solutions.Utility.Logger\\Solutions.Utility.Logger.csproj|d:\\project\\utilities\\utilities-applogger\\src\\solutions.utility.logger\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4F0CFD3-D1C3-4C8F-F128-91E91D4E9FD4}|src\\Solutions.Utility.Logger\\Solutions.Utility.Logger.csproj|solutionrelative:src\\solutions.utility.logger\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1A81FF-4797-4026-AFFD-9476D51E16CE}|test\\Solutions.Utility.AppLogger.Tests\\Solutions.Utility.AppLogger.Tests.csproj|d:\\project\\utilities\\utilities-applogger\\test\\solutions.utility.applogger.tests\\loggertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E1A81FF-4797-4026-AFFD-9476D51E16CE}|test\\Solutions.Utility.AppLogger.Tests\\Solutions.Utility.AppLogger.Tests.csproj|solutionrelative:test\\solutions.utility.applogger.tests\\loggertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4F0CFD3-D1C3-4C8F-F128-91E91D4E9FD4}|src\\Solutions.Utility.Logger\\Solutions.Utility.Logger.csproj|d:\\project\\utilities\\applogger\\src\\solutions.utility.logger\\ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4F0CFD3-D1C3-4C8F-F128-91E91D4E9FD4}|src\\Solutions.Utility.Logger\\Solutions.Utility.Logger.csproj|d:\\project\\utilities\\utilities-applogger\\src\\solutions.utility.logger\\ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4F0CFD3-D1C3-4C8F-F128-91E91D4E9FD4}|src\\Solutions.Utility.Logger\\Solutions.Utility.Logger.csproj|solutionrelative:src\\solutions.utility.logger\\ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4F0CFD3-D1C3-4C8F-F128-91E91D4E9FD4}|src\\Solutions.Utility.Logger\\Solutions.Utility.Logger.csproj|d:\\project\\utilities\\applogger\\src\\solutions.utility.logger\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4F0CFD3-D1C3-4C8F-F128-91E91D4E9FD4}|src\\Solutions.Utility.Logger\\Solutions.Utility.Logger.csproj|solutionrelative:src\\solutions.utility.logger\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,11 +30,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LoggerTests.cs",
-              "DocumentMoniker": "D:\\Project\\Utilities\\AppLogger\\test\\Solutions.Utility.AppLogger.Tests\\LoggerTests.cs",
+              "DocumentMoniker": "D:\\Project\\Utilities\\Utilities-AppLogger\\test\\Solutions.Utility.AppLogger.Tests\\LoggerTests.cs",
               "RelativeDocumentMoniker": "test\\Solutions.Utility.AppLogger.Tests\\LoggerTests.cs",
-              "ToolTip": "D:\\Project\\Utilities\\AppLogger\\test\\Solutions.Utility.AppLogger.Tests\\LoggerTests.cs",
+              "ToolTip": "D:\\Project\\Utilities\\Utilities-AppLogger\\test\\Solutions.Utility.AppLogger.Tests\\LoggerTests.cs",
               "RelativeToolTip": "test\\Solutions.Utility.AppLogger.Tests\\LoggerTests.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -43,23 +43,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Logger.cs",
-              "DocumentMoniker": "D:\\Project\\Utilities\\AppLogger\\src\\Solutions.Utility.Logger\\Logger.cs",
+              "DocumentMoniker": "D:\\Project\\Utilities\\Utilities-AppLogger\\src\\Solutions.Utility.Logger\\Logger.cs",
               "RelativeDocumentMoniker": "src\\Solutions.Utility.Logger\\Logger.cs",
-              "ToolTip": "D:\\Project\\Utilities\\AppLogger\\src\\Solutions.Utility.Logger\\Logger.cs",
+              "ToolTip": "D:\\Project\\Utilities\\Utilities-AppLogger\\src\\Solutions.Utility.Logger\\Logger.cs",
               "RelativeToolTip": "src\\Solutions.Utility.Logger\\Logger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAlwGoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T15:19:28.765Z"
+              "WhenOpened": "2025-07-17T15:19:28.765Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ILogger.cs",
-              "DocumentMoniker": "D:\\Project\\Utilities\\AppLogger\\src\\Solutions.Utility.Logger\\ILogger.cs",
+              "DocumentMoniker": "D:\\Project\\Utilities\\Utilities-AppLogger\\src\\Solutions.Utility.Logger\\ILogger.cs",
               "RelativeDocumentMoniker": "src\\Solutions.Utility.Logger\\ILogger.cs",
-              "ToolTip": "D:\\Project\\Utilities\\AppLogger\\src\\Solutions.Utility.Logger\\ILogger.cs",
+              "ToolTip": "D:\\Project\\Utilities\\Utilities-AppLogger\\src\\Solutions.Utility.Logger\\ILogger.cs",
               "RelativeToolTip": "src\\Solutions.Utility.Logger\\ILogger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
